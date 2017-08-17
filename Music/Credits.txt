@@ -1,0 +1,12 @@
+track1 = LHS - Loopy Loop
+track2 = LHS - Summer 2013 (.xm version)
+track3 = LHS - 2006
+track4 = Reloaded Installer #3
+track5 = Reloaded Installer #4
+track6 = Reloaded Installer #5
+track7 = Reloaded Installer #6
+track8 = Reloaded Installer #7
+track9 = Taio Cruz - Dynamite remix
+
+
+menutrack = LHS - Castlevania 2 Ripe Seeds remix

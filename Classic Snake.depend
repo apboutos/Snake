@@ -1,0 +1,573 @@
+# depslib dependency file v1.0
+1401464752 source:c:\users\exophrenic\desktop\c++ projects\snake\functions.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\begin_code.h
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\close_code.h
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1382587624 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156342 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156426 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156544 c:\program files (x86)\codeblocks\sdl\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400605200 c:\users\exophrenic\desktop\c++ projects\snake\functions.h
+
+1400776204 c:\users\exophrenic\desktop\c++ projects\snake\globals.h
+
+1400776204 source:c:\users\exophrenic\desktop\c++ projects\snake\globals.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string.h>
+	"Globals.h"
+
+1400618204 source:c:\users\exophrenic\desktop\c++ projects\snake\main.cpp
+	<cstdlib>
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	<windows.h>
+	"Functions.h"
+	"Globals.h"
+
+1401464752 source:c:\users\exophrenic\desktop\snake\functions.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1400605200 c:\users\exophrenic\desktop\snake\functions.h
+
+1400776204 c:\users\exophrenic\desktop\snake\globals.h
+
+1400776204 source:c:\users\exophrenic\desktop\snake\globals.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string.h>
+	"Globals.h"
+
+1401464752 source:c:\users\exophrenic\desktop\snake\main.cpp
+	<cstdlib>
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	<windows.h>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1400552887 source:c:\users\exophrenic\desktop\snake\icon.rc
+
+1400552809 source:c:\users\exophrenic\desktop\snake\icon.rsc.c
+
+1400552887 source:c:\users\exophrenic\desktop\c++ projects\snake\icon.rc
+
+1400552809 source:c:\users\exophrenic\desktop\c++ projects\snake\icon.rsc.c
+
+1401464752 c:\users\exophrenic\desktop\snake\snake.h
+
+1401464752 c:\users\exophrenic\desktop\c++ projects\snake\snake.h
+
+1401465024 source:c:\users\exophrenic\desktop\c++ projects\snake\snake.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1401461154 source:e:\code\c++ projects\snake\functions.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1400601602 e:\code\c++ projects\snake\functions.h
+
+1400772606 e:\code\c++ projects\snake\globals.h
+
+1401461154 e:\code\c++ projects\snake\snake.h
+
+1400772606 source:e:\code\c++ projects\snake\globals.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string.h>
+	"Globals.h"
+
+1400549288 source:e:\code\c++ projects\snake\icon.rc
+
+1400549210 source:e:\code\c++ projects\snake\icon.rsc.c
+
+1404585702 source:e:\code\c++ projects\snake\main.cpp
+	<cstdlib>
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	<windows.h>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1401461426 source:e:\code\c++ projects\snake\snake.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1401457554 source:c:\users\zero\documents\c++ projects\snake\functions.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1400598002 c:\users\zero\documents\c++ projects\snake\functions.h
+
+1400769006 c:\users\zero\documents\c++ projects\snake\globals.h
+
+1401457554 c:\users\zero\documents\c++ projects\snake\snake.h
+
+1400769006 source:c:\users\zero\documents\c++ projects\snake\globals.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string.h>
+	"Globals.h"
+
+1400545688 source:c:\users\zero\documents\c++ projects\snake\icon.rc
+
+1400545610 source:c:\users\zero\documents\c++ projects\snake\icon.rsc.c
+
+1404582102 source:c:\users\zero\documents\c++ projects\snake\main.cpp
+	<cstdlib>
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	<windows.h>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
+1401457826 source:c:\users\zero\documents\c++ projects\snake\snake.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<string>
+	"Functions.h"
+	"Globals.h"
+	"Snake.h"
+
